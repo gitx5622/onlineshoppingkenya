@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fc60084d.chunk.css",
+    "main.js": "/static/js/main.7ef46068.chunk.js",
+    "main.js.map": "/static/js/main.7ef46068.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c8bd67a1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c8bd67a1.js.map",
+    "static/css/2.aa7fcd32.chunk.css": "/static/css/2.aa7fcd32.chunk.css",
+    "static/js/2.78d48963.chunk.js": "/static/js/2.78d48963.chunk.js",
+    "static/js/2.78d48963.chunk.js.map": "/static/js/2.78d48963.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.3927eb025121e362f99decc010076e7d.js": "/precache-manifest.3927eb025121e362f99decc010076e7d.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.aa7fcd32.chunk.css.map": "/static/css/2.aa7fcd32.chunk.css.map",
+    "static/css/main.fc60084d.chunk.css.map": "/static/css/main.fc60084d.chunk.css.map",
+    "static/media/brand.png": "/static/media/brand.cb2a505f.png",
+    "static/media/fashion1.jpg": "/static/media/fashion1.523e9f20.jpg",
+    "static/media/gateways.png": "/static/media/gateways.34bf6318.png",
+    "static/media/living.jpg": "/static/media/living.a402c2ea.jpg",
+    "static/media/living1.jpg": "/static/media/living1.88102139.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c8bd67a1.js",
+    "static/css/2.aa7fcd32.chunk.css",
+    "static/js/2.78d48963.chunk.js",
+    "static/css/main.fc60084d.chunk.css",
+    "static/js/main.7ef46068.chunk.js"
+  ]
+}
