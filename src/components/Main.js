@@ -187,8 +187,8 @@ class Header extends Component {
 
           <div className="col-sm-8">
             <div className="content">
-               <form  style={{marginLeft:"100px", width:"500px"}}>
-               <div className="global-search-wrapper" style={{ width: 300,marginTop:-40 }}>
+               <form  style={{marginLeft:"100px", width:"50%"}}>
+               <div className="global-search-wrapper" style={{ width:"50%",marginTop:-40 }}>
                   <AutoComplete
                     className="global-search"
                     size="large"
@@ -199,7 +199,7 @@ class Header extends Component {
                     placeholder="input here"
                     optionLabelProp="text"
                   >
-                    <Input style={{width:"100%"}}
+                    <Input style={{width:"50%"}}
                       suffix={
                         <Button
                           className="search-btn"
@@ -236,7 +236,7 @@ class Header extends Component {
               <button class="dropbtn"><a href="/electronics">Computing</a></button>
                 <div class="dropdown-content">
                   <div class="row" style={{height:"500px",width:"95%"}}>
-                    <div class="col-3">
+                    <div class="col-sm-3">
                     <hr/><strong> <h6>LAPTOPS</h6></strong><hr/>
                         <a href="/#">Notebooks</a>
                         <a href="/#">Macbooks</a>
@@ -247,7 +247,7 @@ class Header extends Component {
                         <a href="/#">Towers</a>
                        
                     </div>
-                  <div class="col-3">
+                  <div class="col-sm-3">
                   <hr/><b><h6>PERIPERALS & ACCESSORIES</h6></b><hr/>
                         <a href="/#">Networking</a>
                         <a href="/#">Projectors</a>
@@ -258,7 +258,7 @@ class Header extends Component {
                         <a href="/#">Flash Drives</a>
                         <a href="/#">External HD</a>
                     </div>
-                    <div class="col-6">
+                    <div class="col-sm-6">
                         <img src="https://cdn.pixabay.com/photo/2015/01/20/14/27/office-605503_960_720.jpg" alt="computing" style={{height:"500px"}}/>
                     </div>
                   </div>
@@ -269,7 +269,7 @@ class Header extends Component {
           <button class="dropbtn"><a href="/grocery">Grocery</a></button>
           <div class="dropdown-content">
           <div class="row" style={{height:"500px",width:"200%"}}>
-                    <div class="col-3">
+                    <div class="col-sm-3">
                     <hr/><strong> <h6>DRINKS</h6></strong><hr/>
                         <a href="/#">Beer, Wine & Spirits</a>
                         <a href="/#">Water</a>
@@ -279,7 +279,7 @@ class Header extends Component {
                         <a href="/#">Cooing Oils</a>
                         <a href="/#">Candy & Chocolate</a>
                     </div>
-                  <div class="col-3">
+                  <div class="col-sm-3">
                   <hr/><b><h6>HOUSEHOLD</h6></b><hr/>
                         <a href="/#">Laundry</a>
                         <a href="/#">Papers</a>
@@ -290,7 +290,7 @@ class Header extends Component {
                         <a href="/#">Ketepa</a>
                         <a href="/#">Brookside</a>
                     </div>
-                    <div class="col-6">
+                    <div class="col-sm-6">
                         <img src="https://www.pointpleasantresort.com/sites/default/files/images/Generic%20Bag(1).jpg" alt="computing" style={{height:"500px"}}/>
                     </div>
                   </div>
@@ -301,7 +301,7 @@ class Header extends Component {
           <button class="dropbtn"><a href="/electronics">Electronics</a></button>
           <div class="dropdown-content">
           <div class="row" style={{height:"500px",width:"150%"}}>
-                    <div class="col-3">
+                    <div class="col-sm-3">
                     <hr/><strong> <h6>TELEVISIONS</h6></strong><hr/>
                         <a href="/#">Smart Tvs</a>
                         <a href="/#">LED & LCD TVs</a>
@@ -311,7 +311,7 @@ class Header extends Component {
                         <a href="/#">Home-Theater</a>
                         <a href="/#">Earphones</a>
                     </div>
-                  <div class="col-3">
+                  <div class="col-sm-3">
                   <hr/><b><h6>CAMERAS</h6></b><hr/>
                         <a href="/#">Camcorders</a>
                         <a href="/#">CCTV Cameras</a>
@@ -322,7 +322,7 @@ class Header extends Component {
                         <a href="/#">Hisense Tv</a>
                         <a href="/#">Vision Plus</a>
                     </div>
-                    <div class="col-6">
+                    <div class="col-sm-6">
                         <img src="https://expatelectronics.co.ke/image/cache/catalog/SONY%2043%20INCH%20ANDROID-500x500.jpg" alt="computing" style={{height:"500px"}}/>
                     </div>
                   </div>
@@ -333,7 +333,7 @@ class Header extends Component {
           <button class="dropbtn"><a href="/jewelry">Jewelry</a></button>
           <div class="dropdown-content">
           <div class="row" style={{height:"500px",width:"150%"}}>
-                    <div class="col-3">
+                    <div class="col-sm-3">
                     <hr/> <strong> <h6>NECKLESSES</h6></strong><hr/>
                         <a href="/#">Generic</a>
                         <a href="/#">Fashion</a>
@@ -343,7 +343,7 @@ class Header extends Component {
                         <a href="/#">Fashion</a>
                         
                     </div>
-                  <div class="col-3">
+                  <div class="col-sm-3">
                   <hr/> <b><h6>CHAINS</h6></b><hr/>
                         <a href="/#">Fashion</a>
                         <a href="/#">Generic</a>
@@ -352,7 +352,7 @@ class Header extends Component {
                         <a href="/#">Mens's Jewelry</a>
                         <a href="/#">Women's Jewelry</a>
                     </div>
-                    <div class="col-6">
+                    <div class="col-sm-6">
                         <img src="https://images.naptol.com/usr/local/csp/staticContent/product_images/horizontal/750x750/Sumangali-Jewellery-Collection-01.jpg" alt="computing" style={{height:"500px"}}/>
                     </div>
                   </div>
@@ -363,7 +363,7 @@ class Header extends Component {
           <button class="dropbtn"><a href="/phones">Phones</a></button>
           <div class="dropdown-content">
           <div class="row" style={{height:"500px",width:"780px"}}>
-                    <div class="col-3">
+                    <div class="col-sm-3">
                     <hr/><strong> <h6>MOBILE PHONES</h6></strong><hr/>
                         <a href="/#">Smartphones</a>
                         <a href="/#">Iphones</a>
@@ -374,7 +374,7 @@ class Header extends Component {
                         <a href="/#">Oppo</a>
                         
                     </div>
-                  <div class="col-3">
+                  <div class="col-sm-3">
                   <hr/> <b><h6>ACCESSORIES</h6></b><hr/>
                         <a href="/#">Powerbanks</a>
                         <a href="/#">Screen Covers</a>
@@ -385,7 +385,7 @@ class Header extends Component {
                         <a href="/#">Iphone</a>
                         <a href="/#">Huawei</a>
                     </div>
-                    <div class="col-6">
+                    <div class="col-sm-6">
                         <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone8-gold-select-2018?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1550795416637" alt="computing"/>
                     </div>
                   </div>
@@ -396,7 +396,7 @@ class Header extends Component {
           <button class="dropbtn"><a href="/tablets">Tablets</a></button>
               <div class="dropdown-content">
                   <div class="row" style={{height:"500px",width:"700px",textAlign:"center"}}>
-                    <div class="col-sm">
+                    <div class="col-sm-6">
                     <hr/><strong> <h6>IPADS</h6></strong><hr/>
                         <a href="/#">Notebooks</a>
                         <a href="/#">Macbooks</a>
@@ -408,7 +408,7 @@ class Header extends Component {
                       
                         
                     </div>
-                    <div class="col-sm">
+                    <div class="col-sm-6">
                         <img src="https://images-na.ssl-images-amazon.com/images/I/41VE1x1z5vL.jpg" alt="computing" style={{height:"500px"}}/>
                     </div>
                   </div>
@@ -419,7 +419,7 @@ class Header extends Component {
           <button class="dropbtn"><a href="/electronics">Clothing</a></button>
                 <div class="dropdown-content">
                   <div class="row" style={{height:"500px",width:"650px",textAlign:"center"}}>
-                    <div class="col-sm">
+                    <div class="col-sm-6">
                     <hr/><strong> <h6>WOMENS FASHION</h6></strong><hr/>
                         <a href="/#">Tops</a>
                         <a href="/#">Dresses</a>
@@ -430,7 +430,7 @@ class Header extends Component {
                         <a href="/#">Men's suit</a>
 
                     </div>
-                    <div class="col-sm">
+                    <div class="col-sm-6">
                         <img src="http://bestjquery.com/tutorial/product-grid/demo6/images/img-8.jpg" alt="computing" style={{height:"500px"}}/>
                     </div>
                   </div>
@@ -441,30 +441,30 @@ class Header extends Component {
           <button class="dropbtn"><a href="/electronics">Top brands</a></button>
           <div class="dropdown-content">
                   <div class="row" style={{height:"150px",width:"550px",textAlign:"center"}}>
-                    <div class="col-6">
+                    <div class="col-sm-6">
                      
                       <img src="https://freepngimg.com/download/nike/28092-1-nike-logo-clipart.png" alt="..." style={{height:"80px",width:"110px",textAlign:"center"}}/>
                      </div>
 
-                    <div class="col-6">
+                    <div class="col-sm-6">
                       <img src="https://upload.wikimedia.org/wikipedia/en/7/75/Versace_logo.png" alt="..." style={{height:"80px",width:"110px",textAlign:"center"}}/>
                       </div>
                   </div>
                   <div class="row" style={{height:"150px",width:"550px",textAlign:"center"}}>
-                    <div class="col-6">
+                    <div class="col-sm-6">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Fila_logo.svg/400px-Fila_logo.svg.png" alt="..." style={{height:"80px",width:"250px",textAlign:"center"}}/>
                     </div>
 
-                    <div class="col-6">
+                    <div class="col-sm-6">
                      <img src="https://i.pinimg.com/originals/7d/e0/81/7de0816213e99e985984880bd052469b.png" alt="..." style={{height:"110px",width:"110px",textAlign:"center"}}/>
                     </div>
                   </div>
                   <div class="row" style={{height:"150px",width:"550px",textAlign:"center"}}>
-                    <div class="col-6">
+                    <div class="col-sm-6">
                     <img src="https://ucarecdn.com/5bfc85bf-4ce7-413c-851d-1ebe1cf407e2~1/nth/0/" alt="..." style={{height:"80px",width:"110px",textAlign:"center"}}/>
                     </div>
 
-                    <div class="col-6">
+                    <div class="col-sm-6">
                       <img src="https://i0.wp.com/www.theartofresale.com/wp-content/uploads/2016/04/plainicon.com-42201-512px.png?ssl=1" alt="..." style={{height:"80px",width:"110px",textAlign:"center"}}/>
                     </div>
                   </div>
@@ -476,15 +476,15 @@ class Header extends Component {
         <div className="container">
         <div className="row" style={{height:'35px',fontWeight:"bolder",backgroundColor:'#92DAF1',color:'#183546',textTransform:"uppercase",marginLeft:'200px',marginRight:200}}>
 
-            <div class="col-4">
+            <div class="col-sm-4">
               Top New Deals Delivery
             </div>
             <span class="separator-down"></span>
-            <div class="col-4">
+            <div class="col-sm-4">
           <center> FREE  Delivery</center>
             </div>
             <span class="separator-down"></span>
-            <div class="col-3">
+            <div class="col-sm-3">
               Shopping global
             </div>
         
@@ -494,7 +494,7 @@ class Header extends Component {
 
 
 <div className="row" style={{marginTop: "20px", marginLeft:"40px"}}>
-    <div className="col-2" style={{borderStyle: "solid",borderColor:"#F3F5F6 ", fontSize:"30px",borderRadius:"5px"}}>
+    <div className="col-sm-2" style={{borderStyle: "solid",borderColor:"#F3F5F6 ", fontSize:"30px",borderRadius:"5px"}}>
     <Menu
         mode="inline"
         openKeys={this.state.openKeys}
@@ -549,10 +549,10 @@ class Header extends Component {
         </SubMenu>
       </Menu>
     </div>
-              <div className="col-7"  style={{borderStyle: "solid",borderColor:"#F3F5F6 ",borderRadius:"5px",marginLeft: "10px",marginRight: "10px"}}>
+              <div className="col-sm-7"  style={{borderStyle: "solid",borderColor:"#F3F5F6 ",borderRadius:"5px",marginLeft: "10px",marginRight: "10px"}}>
                   <Slider/>
                   </div>
-                  <div className="col-2"  style={{marginRight:"40px", borderStyle: "solid",textAlign:"center",borderColor:"#F3F5F6 ", borderRadius:"5px"}} >
+                  <div className="col-sm-2"  style={{marginRight:"40px", borderStyle: "solid",textAlign:"center",borderColor:"#F3F5F6 ", borderRadius:"5px"}} >
                   <h3><b>ONLINE</b></h3>
                  <img src="https://previews.123rf.com/images/macrovector/macrovector1602/macrovector160200213/52694854-self-service-supermarket-full-shopping-trolley-cart-with-fresh-grocery-products-and-red-handle-reali.jpg"
                  style={{width:150,height:200}} alt="..."/>
@@ -568,12 +568,12 @@ class Header extends Component {
                 <h5 className="card-header"  style={{backgroundColor:"#92DAF1"}}>Categories</h5>
                 <div className="card-body">
                 <div className="row">
-                  <div className="col"><img src="https://img.icons8.com/color/480/000000/kitchenwares.png" alt="..." style={{height:"120px",width:"120px"}}></img>Kitchenwares</div>
-                  <div className="col"><img src="https://img.icons8.com/color/480/000000/jewelry.png" alt="..." style={{height:"120px",width:"120px"}}></img>Jewelry</div>
-                  <div className="col"><img src="https://img.icons8.com/color/480/000000/home-decorations.png" alt="..." style={{height:"120px",width:"120px"}}></img>Home-decorations</div>
-                  <div className="col"><img src="https://img.icons8.com/color/480/000000/stationery.png" alt="..." style={{height:"120px",width:"120px"}}></img>Stationery</div>
-                  <div className="col"><img src="https://img.icons8.com/color/480/000000/clothes.png" alt="..." style={{height:"120px",width:"120px"}}></img>Clothes</div>
-                  <div className="col"><img src="https://img.icons8.com/color/480/000000/food.png" alt="..." style={{height:"120px",width:"120px"}}></img>Food</div>
+                  <div className="col-sm"><img src="https://img.icons8.com/color/480/000000/kitchenwares.png" alt="..." style={{height:"120px",width:"120px"}}></img>Kitchenwares</div>
+                  <div className="col-sm"><img src="https://img.icons8.com/color/480/000000/jewelry.png" alt="..." style={{height:"120px",width:"120px"}}></img>Jewelry</div>
+                  <div className="col-sm"><img src="https://img.icons8.com/color/480/000000/home-decorations.png" alt="..." style={{height:"120px",width:"120px"}}></img>Home-decorations</div>
+                  <div className="col-sm"><img src="https://img.icons8.com/color/480/000000/stationery.png" alt="..." style={{height:"120px",width:"120px"}}></img>Stationery</div>
+                  <div className="col-sm"><img src="https://img.icons8.com/color/480/000000/clothes.png" alt="..." style={{height:"120px",width:"120px"}}></img>Clothes</div>
+                  <div className="col-sm"><img src="https://img.icons8.com/color/480/000000/food.png" alt="..." style={{height:"120px",width:"120px"}}></img>Food</div>
                 </div>
                 </div>
               </div>
@@ -585,7 +585,7 @@ class Header extends Component {
                   
                   <div className="row" style={{marginTop: "20px"}}>
                       {data.map(product=>{ return (
-              <div key={product.title} className="col-md-3 col-sm-6">
+              <div key={product.title} className="col-md-3 sm-6">
                   <div className="product-grid4">
                   <div className="product-image4">
                       <a href="javasript:;" onClick={() => this.props.history.push(`product/${product.id}/`)}>
