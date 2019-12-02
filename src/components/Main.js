@@ -199,7 +199,7 @@ class Header extends Component {
                     placeholder="input here"
                     optionLabelProp="text"
                   >
-                    <Input style={{width:450}}
+                    <Input style={{width:"100%"}}
                       suffix={
                         <Button
                           className="search-btn"
