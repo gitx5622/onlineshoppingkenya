@@ -235,7 +235,7 @@ class Header extends Component {
             <div class="dropdown">
               <button class="dropbtn"><a href="/electronics">Computing</a></button>
                 <div class="dropdown-content">
-                  <div class="row" style={{height:"500px",width:"1200px"}}>
+                  <div class="row" style={{height:"500px",width:"95%"}}>
                     <div class="col-3">
                     <hr/><strong> <h6>LAPTOPS</h6></strong><hr/>
                         <a href="/#">Notebooks</a>
@@ -268,7 +268,7 @@ class Header extends Component {
         <div class="dropdown">
           <button class="dropbtn"><a href="/grocery">Grocery</a></button>
           <div class="dropdown-content">
-          <div class="row" style={{height:"500px",width:"1100px"}}>
+          <div class="row" style={{height:"500px",width:"200%"}}>
                     <div class="col-3">
                     <hr/><strong> <h6>DRINKS</h6></strong><hr/>
                         <a href="/#">Beer, Wine & Spirits</a>
@@ -300,7 +300,7 @@ class Header extends Component {
         <div class="dropdown">
           <button class="dropbtn"><a href="/electronics">Electronics</a></button>
           <div class="dropdown-content">
-          <div class="row" style={{height:"500px",width:"900px"}}>
+          <div class="row" style={{height:"500px",width:"150%"}}>
                     <div class="col-3">
                     <hr/><strong> <h6>TELEVISIONS</h6></strong><hr/>
                         <a href="/#">Smart Tvs</a>
@@ -332,7 +332,7 @@ class Header extends Component {
         <div class="dropdown">
           <button class="dropbtn"><a href="/jewelry">Jewelry</a></button>
           <div class="dropdown-content">
-          <div class="row" style={{height:"500px",width:"800px"}}>
+          <div class="row" style={{height:"500px",width:"150%"}}>
                     <div class="col-3">
                     <hr/> <strong> <h6>NECKLESSES</h6></strong><hr/>
                         <a href="/#">Generic</a>
